@@ -12,6 +12,7 @@ export class App extends Component {
     contacts: initialList,
     filter: '',
   };
+  
   componentDidMount() {
     const contacts = localStorage.getItem('contacts');
     const parsedСontacts = JSON.parse(contacts);
